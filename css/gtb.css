@@ -1,0 +1,42 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 800px;
+  background: #ff7300;
+  margin: auto;
+}
+
+#container .outline{
+  border: 5px #fff solid;
+  width: 18rem;
+  height: 18rem;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+}
+
+#container .outline h1{
+  color: #fff;
+  font-size: 3.5rem;
+  position: relative;
+  top: 5rem;
+}
+
+#container .outline .w-box{
+  width: 5rem;
+  height: 5rem;
+  background: #fff;
+  position: relative;
+  top: 2.5rem;
+  left: 11.25rem;
+}
